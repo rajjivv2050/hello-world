@@ -13,6 +13,7 @@ const ForwardRefInput = React.forwardRef((props,ref) =>
     return (
         <div>
             <input type="text" ref={ref}></input>
+            <input type="text" ref={ref}></input>
             <h1>Hero</h1>
         </div>
     )
